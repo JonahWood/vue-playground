@@ -2,7 +2,7 @@
   <div class="navbar navbar-inverse">
     <div class="navbar-brand">
       <router-link class="no-high" :to="{ name: 'home' }">
-        <img src="../assets/logo.png" alt="logo" height="40" />ue Playground
+        <img src="../assets/logo.png" alt="logo" height="40" />
       </router-link>
     </div>
     <div class="links">

@@ -122,6 +122,62 @@ export default {
       <exercise></exercise>
     </div>
   </div>
+  <ul class="list-group">
+          <li class="list-group-item active bg-info">
+            <p>Glossary of Terms</p>
+          </li>
+          <li class="list-group-item border">
+            <p class="mb-0">
+              <b class="m-0">Vue</b> - A frontend javascript framework that
+              makes building user interfaces easier.
+            </p>
+          </li>
+          <li class="list-group-item border">
+            <p class="mb-0">
+              <b class="m-0">Component</b> - A .vue file that contains an HTML
+              template, script area for javascript, and a style area for css.
+            </p>
+          </li>
+          <li class="list-group-item border">
+            <p class="mb-0">
+              <b class="m-0">Page</b> - A collection and layout of various
+              components.
+            </p>
+          </li>
+          <li class="list-group-item border">
+            <p class="mb-0">
+              <b class="m-0">Data Binding</b> - A connection between a property
+              on the component(in the data() return object) and the template.
+            </p>
+          </li>
+          <li class="list-group-item border">
+            <p class="mb-0">
+              <b class="m-0">AppState</b> - The AppState utilizes the observer
+              pattern and a single source of truth for all components in the app
+              using vue's reactive wrapper.
+            </p>
+          </li>
+          <li class="list-group-item border">
+            <p class="mb-0">
+              <b class="m-0">Router</b> - The Vue Router is used to evaluate the
+              address in the url and determine which page should be displayed.
+            </p>
+          </li>
+          <li class="list-group-item border">
+            <p class="mb-0">
+              <b class="m-0">V Directives</b> - The special directives for Vue,
+              all begin with a v and tell Vue to use some special behind the
+              scene processes. Examples: v-if, v-for, v-show
+            </p>
+          </li>
+          <li class="list-group-item border">
+            <p class="mb-0">
+              <b class="m-0">Reactive</b> - When the data on the page updates
+              automatically based on the state of the application, the user is
+              not required to refresh the page to get the needed data.
+            </p>
+          </li>
+        </ul>
 </template>
 
 <script>
